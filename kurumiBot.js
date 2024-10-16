@@ -79,7 +79,7 @@ loadDatabase();
 
 // Inicialización de conexiones globales
 if (global.conns instanceof Array) {
-console.log('🤍 Conexiones ya inicializadas...');
+console.log('🌸 Conexion iniciada kurumi');
 } else {
 global.conns = [];
 }
