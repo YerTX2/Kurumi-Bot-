@@ -11,7 +11,7 @@ const defaultMenu = {
   before: `“ʜᴏʟᴀ *%name*, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
 
 \`ᴄʟɪᴇɴᴛᴇ:\` %name
-\`ʙᴏᴛ:\` Tanjiro Bot
+\`ʙᴏᴛ:\` 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ
 \`ᴍᴏᴅᴏ:\` Público
 \`ꜰᴇᴄʜᴀ:\` ${fecha}
 \`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
