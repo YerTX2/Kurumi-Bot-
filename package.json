@@ -1,5 +1,5 @@
 {
-"name": "MickeyBot-Md",
+"name": "ᴋᴜʀᴜᴍɪᏴo͢Ꭲ",
 "version": "1.5.1",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/MickeyVipPro/MickeyBot-Md",
+"homepage": "https://github.com/YerTX2/Kurumi-Bot-",
 "author": {
-"name": "Dev-Diego"
+"name": "YerTX2"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/MickeyVipPro/MickeyBot-Md.git"
+"url": "git+https://github.com/YerTX2/Kurumi-Bot-.git"
 },
 "bugs": {
-"url": "https://github.com/MickeyVipPro/MickeyBot-Md/issues"
+"url": "https://github.com/YerTX2/Kurumi-Bot-/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
