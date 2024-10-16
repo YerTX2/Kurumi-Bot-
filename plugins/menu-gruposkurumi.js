@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'grupos': 'menugrupos',
 }
-let img = 'https://i.ibb.co/GFkssSq/file.jpg'
+let img = 'https://i.ibb.co/9b1CPP1/file.jpg'
 
   try {
           // DEFAULT MENU
