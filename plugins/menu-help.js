@@ -67,13 +67,13 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ`,
         rows: [
             {
-                header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
+                header: "AUTO VERIFICAR ✅",
                 title: "",
                 description: `Verificacion Automáticamente`,
                 id: `.reg Kurumi.18`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🤍",
+                header: "MENU COMPLETO 🇦🇱",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
                 id: `.allmenu`,
@@ -81,25 +81,31 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
             
           
             {
-                header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
+                header: "MENU DESCARGAS 📥",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
                 id: `${usedPrefix}menudl`,
             },
+             {
+                header: "MENU SEARCH",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 SEARCH`,
+                id: `${usedPrefix}menusearch`,
+            },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗜 🤖",
+                header: "MENU INTELIGENCIA ARTIFICIAL🤖",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘐𝘈-𝘉𝘰𝘵`,
                 id: `${usedPrefix}menuai`,
             },
             {
-                header: "𝗥𝗘𝗗𝗘𝗦 🍄",
+                header: "REDES 🇦🇱",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘢𝘴 𝘳𝘦𝘥𝘦𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}redes`,
             },
             {
-                header: "𝗚𝗥𝗨𝗣𝗢𝗦 ☁️",
+                header: "GRUPOS 🌟",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘨𝘳𝘶𝘱𝘰𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}grupos`,
