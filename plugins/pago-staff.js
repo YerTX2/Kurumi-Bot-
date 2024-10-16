@@ -9,5 +9,5 @@ handler.help = ['staff'];
 export default handler;
 
 global.staff = [
-  'https://qu.ax/RlyXW.jpg',
+  'https://i.ibb.co/ZYprXhm/file.jpg',
 ];
