@@ -20,7 +20,7 @@ await conn.sendMessage(m.chat, { document: { url: URL }, mimetype: 'application/
 };
 handler.tags = ['dl']
 handler.help = ['apk *<nombre>*']
-handler.command = /^(apkp|apkpure|apkdl)$/i;
+handler.command = /^(apk)$/i;
 handler.register = true;
 handler.limit = 2;
 export default handler;
