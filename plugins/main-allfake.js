@@ -97,13 +97,13 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
-'https://qu.ax/CkXP.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
+'https://i.ibb.co/ZYprXhm/file.jpg',
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363314192605628@newsletter", serverMessageId: 100, newsletterName: '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ', }, externalAdReply: { showAdAttribution: true, title: packname, body: '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
