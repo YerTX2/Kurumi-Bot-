@@ -9,8 +9,8 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
-*👾 Creador* 
-• Yallico
+*, 👥Creador* 
+• YerTX2🇦🇱
 
 *👾 Actividad*
 • ${uptime}
@@ -21,7 +21,7 @@ let estado = `
 *👾 Canal* 
 • ${canal}`
 await conn.sendButton(m.chat, estado, ' ', pp, [
-['🤴 Dueño 🤴', '.owner'], ['🫀 Grupos 🫀', '/grupos']], null, [['👾 Canal 👾', `${canal}`]], estilo)
+['✅Dueño ', '.owner'], ['🫀 Grupos 🫀', '/grupos']], null, [[' Canal ', `${canal}`]], estilo)
 }
 handler.help = ['donate']
 handler.tags = ['main']
