@@ -32,13 +32,13 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/51926956637'
+global.creador = 'Wa.me/51907376960'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/51926956637'
-global.namechannel = '✯ Tanjiro Kamado ✯'
+global.asistencia = 'Wa.me/51907376960'
+global.namechannel = '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ'
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
-global.namegrupo = '𝗚𝗿𝗼𝘂𝗽 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
-global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
+global.namegrupo = 'Grupo Kurumi'
+global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 Moonligh'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁'
 global.colab1 = '𝗚𝗮𝘁𝗮𝗕𝗼𝘁 & 𝗬𝗮𝗲𝗺𝗼𝗿𝗶'
 global.colab2 = '𝗠𝗼𝗼𝗻𝗟𝗶𝗴𝗵𝘁 - 𝗕𝗼𝘁𝘀'
@@ -63,10 +63,10 @@ global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029Vajmcez5PO0xdMq2Qu1e'  
-var git = 'https://github.com/TanjiVipPro' 
-var github = 'https://github.com/Tanji' 
-var instagram = 'https://www.instagram.com/yallico.owner' 
+var canal = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v'  
+var git = 'https://github.com/YerTX2' 
+var github = 'https://github.com/Kurumi-Bot-' 
+var instagram = 'https://www.instagram.com/yer29_07' 
 
 global.redes = [canal, git, github, instagram].getRandom()
 
@@ -93,7 +93,7 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-    global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363344106085676@newsletter', newsletterName: "✯ Tanjiro Kamado ✯", serverMessageId: -1 }
+    global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363314192605628@newsletter', newsletterName: "複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ, serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [ 
@@ -106,6 +106,6 @@ global.icono = [
 'https://qu.ax/CkXP.jpg',
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363344106085676@newsletter", serverMessageId: 100, newsletterName: '✯ Tanjiro Kamado ✯', }, externalAdReply: { showAdAttribution: true, title: packname, body: '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 - 𝗠𝗗 ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363314192605628@newsletter", serverMessageId: 100, newsletterName: '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ', }, externalAdReply: { showAdAttribution: true, title: packname, body: '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
