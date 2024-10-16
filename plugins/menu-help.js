@@ -87,10 +87,10 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 id: `${usedPrefix}menudl`,
             },
              {
-                header: "MENU  GRUPOS👥",
+                header: "MENU  GRUPO👥",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 grupos`,
-                id: `${usedPrefix}menugrupos`,
+                id: `${usedPrefix}menugrupo`,
             }, 
              {
                 header: "MENU SEARCH",
