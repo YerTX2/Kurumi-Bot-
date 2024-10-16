@@ -21,23 +21,23 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
-  let img = await (await fetch(`https://qu.ax/jggx.jpg`)).buffer()
+  let img = await (await fetch(`https://i.ibb.co/F4htYdd/file.jpgg`)).buffer()
   let txt = '*`📄 VERIFICACIÓN ACTUAL 📄`*\n'
       txt += ` *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*\n`
-      txt += `┊ *☁️ NOMBRE*\n`
-      txt += `┊ ⁘ \`${name}\`\n`
+      txt += `┊ * 🇦🇱NOMBRE*\n`
+      txt += `┊ ⁘ \`🇦🇱${name}\`\n`
       txt += `┊\n`
-      txt += `┊ *☁️ EDAD* \n`
+      txt += `┊ * 🇦🇱EDAD* \n`
       txt += `┊ ⁘ \`${age} años\`\n`
       txt += `┊\n`
-      txt += `┊ *☁️ FECHA*\n`
+      txt += `┊ *🇦🇱 FECHA*\n`
       txt += `┊ ⁘ \`${fecha}\`\n`
       txt += `┊\n`
-      txt += `┊ *☁️ IDENTIFICADOR SERIAL*\n`
+      txt += `┊ *🇦🇱 IDENTIFICADOR SERIAL*\n`
       txt += `┊ ⁘ \`${sn}\`\n`
       txt += `╰┈┈┈┈┈┈┈┈┈┈┈┈•\n\n`
-      txt += '☁️ \```Escriba el siguiente comando para ver el menu completo:\```\n'
-      txt += `✪ *.allmenu*`
+      txt += '🇦🇱 \```Escriba el siguiente comando para ver el menu completo:\```\n'
+      txt += `✪ *.menu*`
 await conn.sendMini(m.chat, botname, textbot, txt, img, img, canal, m)
 await m.react('✅')
 }
