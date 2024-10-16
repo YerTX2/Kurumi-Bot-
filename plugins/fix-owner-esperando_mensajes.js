@@ -8,7 +8,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '> Solamente Lo Puede Usar Mi Creador 🇦🇱'}, {quoted: m});
   }
   await conn.sendMessage(m.chat, {text: '> AntiBug2 Activado , Iniciando Proceso'}, {quoted: m});
-  const sessionPath = './MickeySession/';
+  const sessionPath = './KurumiSession/';
   try {
     if (!existsSync(sessionPath)) {
       return await conn.sendMessage(m.chat, {text: '> La Carpeta Session Esta Vacia O No Existe, Fijese Que La Carpeta Sea La Correcta'}, {quoted: m});
@@ -30,7 +30,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     console.error('> Error Verifique La Carpeta De Session:', err);
     await conn.sendMessage(m.chat, {text: '> Verifique Que Sea Tal Cual La Carpeta De Session'}, {quoted: m});
   }
-  await conn.sendMessage(m.chat, {text: `> AntiBug X Yallico 🇦🇱\n\n> Si El Bot No Responde Aún , Le Recomiendo Hacer Un Pequeño Spam De 3 Veces Ejecutando El Siguiente Comando: .s`}, {quoted: m});
+  await conn.sendMessage(m.chat, {text: `> AntiBug X YerTX2🇦🇱\n\n> Si El Bot No Responde Aún , Le Recomiendo Hacer Un Pequeño Spam De 3 Veces Ejecutando El Siguiente Comando: .s`}, {quoted: m});
 };
 handler.help = ['AntiBug2'];
 handler.tags = ['main'];
