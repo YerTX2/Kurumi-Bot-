@@ -19,7 +19,7 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'grupos': 'menugrupos',
+'grupo': 'menugrupo',
 }
 let img = 'https://i.ibb.co/9b1CPP1/file.jpg'
 
@@ -192,9 +192,9 @@ await m.react('👥')
     throw e
   }
 }
-handler.help = ['menugrupos']
+handler.help = ['menugrupo']
 handler.tags = ['menu']
-handler.command = ['menugrupos']
+handler.command = ['menugrupo']
 
 export default handler
 
