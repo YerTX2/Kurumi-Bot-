@@ -1,44 +1,21 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
+let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
+if (!args[0]) throw `\`\`\`[ 🌟 ] Ingresa el nombre de la aplicación que quieres descargar. Ejemplo:\n${usedPrefix + command} SonGoku\`\`\``
+let res = await fetch(`https://api.dorratz.com/v2/apk-dl?text=${args[0]}`);
+let result = await res.json();
+let { name, size, lastUpdate, icon } = result;
+let URL = result.dllink
+let packe = result.package
+let texto = `  ❯───「 𝗔𝗣𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 」───❮
+    🇦🇱 𝐍𝐨𝐦𝐛𝐫𝐞 : ⇢ ${name} 📩
+    🇦🇱 𝐓𝐚𝐦𝐚𝐧̃𝐨 : ⇢ ${size} ⚖️
+    🇦🇱 𝐏𝐚𝐜𝐤𝐚𝐠𝐞 : ⇢ ${packe} 📦
+    🇦🇱 𝐀𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐝𝐨 : ⇢ ${lastUpdate} 🗓️
+    
+## Su aplicación se enviará en un momento POR FAVOR ESPERE . . .`
+await conn.sendFile(m.chat, icon, name + '.jpg', texto, m)
 
-const apkpureApi = 'https://apkpure.com/api/v2/search?q=';
-const apkpureDownloadApi = 'https://apkpure.com/api/v2/download?id=';
-
-async function searchApk(text) {
-  const response = await axios.get(`${apkpureApi}${encodeURIComponent(text)}`);
-  const data = response.data;
-  return data.results;
+await conn.sendMessage(m.chat, { document: { url: URL }, mimetype: 'application/vnd.android.package-archive', fileName: name + '.apk', caption: ''}, { quoted: m });
 }
-
-async function downloadApk(id) {
-  const response = await axios.get(`${apkpureDownloadApi}${id}`);
-  const data = response.data;
-  return data;
-}
-
-let handler = async (m, { conn, usedPrefix, command, text }) => {
-  if (!text) throw `*ACCIÓN MAL USADA\n\n *ESCRIBA EL NOMBRE DEL APK*, `;
-  try {
-    const searchResults = await searchApk(text);
-    const apkData = await downloadApk(searchResults[0].id);
-    const response = `${packname}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃💫 𝙉𝙤𝙢𝙗𝙧𝙚: ${apkData.name}
-┃📦 𝙋𝘼𝘾𝙆𝘼𝙂𝙀: ${apkData.package}
-┃🕒 𝙐𝙡𝙩𝙞𝙢𝙖 𝘼𝙘𝙩𝙪𝙖𝙡𝙞𝙯𝙖𝙘𝙞𝙤́𝙣: ${apkData.lastup}
-┃💪 𝙏𝙖𝙣𝙖𝙣̃𝙤: ${apkData.size}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙣𝙙𝙤 𝘼𝙋𝙆 🚀🚀🚀`;
-    await conn.sendMessage(m.chat, { image: { url: apkData.icon }, caption: response }, { quoted: m });
-    if (apkData.size.includes('GB') || apkData.size.replace(' MB', '') > 999) {
-      return await conn.sendMessage(m.chat, { text: 'EL APK ES MUY PESADO.',  }, { quoted: m });
-    }
-    await conn.sendMessage(m.chat, { document: { url: apkData.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: apkData.name + '.apk', caption: null }, { quoted: m });
-  } catch (e) {
-    await conn.reply(m.chat, `𝙊𝙘𝙪𝙧𝙧𝙞𝙤 𝙪𝙣 𝙚𝙧𝙧𝙤𝙧\n\n${e}`, m);
-    console.log(`❗❗𝙀𝙧𝙧𝙤𝙧 ${usedPrefix + command} ❗❗`);
-    console.log(e);
-    handler.limit = false;
   }
 };
 handler.tags = ['dl']
