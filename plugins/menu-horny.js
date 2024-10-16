@@ -14,9 +14,6 @@ const defaultMenu = {
 \`ʙᴏᴛ:\` 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ
 \`ᴍᴏᴅᴏ:\` Público
 \`ꜰᴇᴄʜᴀ:\` ${fecha}
-\`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
-\`ɴɪᴠᴇʟ:\` %level
-
 ▬▭▬▭▬▭▬✦✧✦▬▭▬▭▬▭▬
 %readmore
 `.trimStart(),
@@ -29,7 +26,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'nsfw': 'ᴍᴇɴᴜ ᴀᴅᴜʟᴛᴏ',
 }
-let img = 'https://qu.ax/CkXP.jpg'
+let img = 'https://tinyurl.com/22zlofco'
 
   try {
           // DEFAULT MENU
