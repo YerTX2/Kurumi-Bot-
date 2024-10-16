@@ -70,38 +70,16 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
                 title: "",
                 description: `Verificacion Automáticamente`,
-                id: `.reg Tanjiro.18`,
+                id: `.reg Kurumi.18`,
             },
             {
                 header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🤍",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
                 id: `.allmenu`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 🔊",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘢𝘶𝘥𝘪𝘰𝘴`,
-                id: `${usedPrefix}menuaudios`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪 🔞",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘢𝘭𝘪𝘦𝘯𝘵𝘦`,
-                id: `${usedPrefix}labiblia`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 🎮",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘫𝘶𝘦𝘨𝘰𝘴`,
-                id: `${usedPrefix}menugame`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗡𝗜𝗠𝗘 🌸",
-                title: "",
-                description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘢𝘯𝘪𝘮𝘦`,
-                id: `${usedPrefix}menugame`,
-            },
+            }, 
+            
+          
             {
                 header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
                 title: "",
