@@ -21,7 +21,7 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'dl': 'ᴍᴇɴᴜ ᴅʟ',
+'search': 'menusearch',
 }
 let img = 'https://i.ibb.co/PGJGjQk/file.jpg'
 
@@ -180,8 +180,8 @@ await m.react('📩')
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁',
-        body: '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁',
+        title: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ',
+        body: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ',
         thumbnailUrl: img,
         sourceUrl: global.canal,
         mediaType: 1,
@@ -194,9 +194,9 @@ await m.react('📩')
     throw e
   }
 }
-handler.help = ['menudl']
+handler.help = ['menusearch']
 handler.tags = ['menu']
-handler.command = ['menudl']
+handler.command = ['menusearch']
 
 export default handler
 
