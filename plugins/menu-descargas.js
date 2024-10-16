@@ -194,9 +194,9 @@ await m.react('📩')
     throw e
   }
 }
-handler.help = ['menusearch']
+handler.help = ['dl']
 handler.tags = ['menu']
-handler.command = ['menusearch']
+handler.command = ['dl']
 
 export default handler
 
