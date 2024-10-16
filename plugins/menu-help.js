@@ -98,11 +98,11 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 SEARCH`,
                 id: `${usedPrefix}menusearch`,
             },
-            {
-                header: "MENU INTELIGENCIA ARTIFICIAL🤖",
+             {
+                header: "MENU NSFW 🔞",
                 title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘐𝘈-𝘉𝘰𝘵`,
-                id: `${usedPrefix}menuai`,
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘢𝘭𝘪𝘦𝘯𝘵𝘦`,
+                id: `${usedPrefix}labiblia`,
             },
             {
                 header: "REDES 🇦🇱",
