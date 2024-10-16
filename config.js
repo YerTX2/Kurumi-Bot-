@@ -12,20 +12,20 @@ import moment from 'moment-timezone';
 global.botnumber = '' //Ejemplo: +573138954963
 global.confirmCode = ''
 
-//• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
+//• SOLO OWNER O COLABORADORES 
 global.owner = [
-  ['51926956637', '✎ Yallico Owner', true],
-  ['51918425805', '✎ Bianca Owner', true],
-  ['5491161225453', '✎ Mayra Owner', true],
-  ['51971060913', '✎ Nare Owner', true],
-  ['524172064415', '✎ Nat Owner', true],
-  ['50588586015', '✎ Lexus Owner', true],
-  ['5491163959270', '✎ Mari Owner', true],
+  ['+51907376960', ' YerTX2 🇦🇱 Owner', true],
+  ['+51907376960', ' Colaborador', true],
+  ['+51907376960', ' Colaborador', true],
+  ['+51907376960', 'Colaborador', true],
+  ['+51907376960', 'Colaborador', true],
+  ['+51907376960', 'Colaborador', true],
+  ['+51907376960', 'Colaborador', true],
   ['']]
 
-//• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['51926956637']
-global.suittag = ['51926956637']
+//• ↳𝑺olo Administradores del bot 
+global.mods = ['+51907376960']
+global.suittag = ['+51907376960']
 global.prems = []
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
 global.isBaileysFail = false
