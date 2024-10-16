@@ -8,7 +8,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     return conn.sendMessage(m.chat, {text: '> Solamente Lo Puede Usar Mi Creador 🇦🇱'}, {quoted: m});
   }
   const chatId = m.isGroup ? [m.chat, m.sender] : [m.sender];
-  const sessionPath = './MickeySession/';
+  const sessionPath = './KurumiSession/';
   try {
     const files = await fs.readdir(sessionPath);
     let filesDeleted = 0;
