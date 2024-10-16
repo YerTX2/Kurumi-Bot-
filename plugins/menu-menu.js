@@ -168,7 +168,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/CkXP.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://i.ibb.co/S0m6f3D/file.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -188,7 +188,7 @@ let imagen_menu = await getBuffer(ppp);
 await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegif3, null, fake)
 
 /* await conn.sendButton(m.chat, text, '@usxr_angelito0', ppp, [
-['', '']], null, [['CANAL 🐈‍⬛', `${canal}`], ['CANAL 2', `wa.me/59168683798`]], m) */
+['', '']], null, [['CANAL 🐈‍⬛', `${canal}`], ['CANAL 2', `wa.me/51 907 376 960`]], m) */
 
   } catch (e) {
     conn.reply(m.chat, '⚠️ Lo sentimos, el menú tiene un error', m, rcanal, )
