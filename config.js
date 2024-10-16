@@ -67,16 +67,16 @@ global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(f
 
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.id_canal = '120363344106085676@newsletter' //-ID de canal de WhatsApp
-global.canal = 'https://whatsapp.com/channel/0029VamB7DI4dTnGjYVhQy3j' //CANAL GENESIS
-global.canal2 = 'https://whatsapp.com/channel/0029VamB7DI4dTnGjYVhQy3j' //CANAL TITANIUM TEAM
-global.bgp = 'https://chat.whatsapp.com/FCxJI7wLJXD4sYlfbX2jJJ' //GRUPO DE AVISOS
-global.bgp2 = 'https://chat.whatsapp.com/D8b5JZEIfLF3YZiCDP1cAp' //GRUPO GLOBAL 1
-global.bgp3 = 'https://chat.whatsapp.com/FCxJI7wLJXD4sYlfbX2jJJ' //GRUPO GLOBAL 2
-global.bgp4 = 'https://chat.whatsapp.com/D8b5JZEIfLF3YZiCDP1cAp' //GRUPO NSFW
-global.md = 'https://github.com/TanjiroVipPro' //Github Oficial
-global.ig = 'https://www.instagram.com/yallico.owner' //Ig Oficial
-global.correo = 'yallico2024@gmail.com'
+global.id_canal = '120363314192605628@newsletter' //-ID de canal de WhatsApp
+global.canal = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v' //CANAL Kurumi-Bot
+global.canal2 = 'https://whatsapp.com/channel/0029Vaj67qQJUM2Wa5Ey3y1v' //CANAL Kurumi-Bot
+global.bgp = 'https://chat.whatsapp.com/EfnhQvzXQWW940w73UnRBh' //GRUPO DE AVISOS
+global.bgp2 = 'https://chat.whatsapp.com/EfnhQvzXQWW940w73UnRBh' //GRUPO GLOBAL 1
+global.bgp3 = 'https://chat.whatsapp.com/EfnhQvzXQWW940w73UnRBh' //GRUPO GLOBAL 2
+global.bgp4 = 'https://chat.whatsapp.com/EfnhQvzXQWW940w73UnRBh' //GRUPO NSFW
+global.md = 'https://github.com/YerTX2' //Github Oficial
+global.ig = 'https://www.instagram.com/yer29_07.owner' //Ig Oficial
+global.correo = 'oroscoyerson2019@gmail.com'
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
