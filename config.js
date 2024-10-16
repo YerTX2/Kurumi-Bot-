@@ -30,21 +30,21 @@ global.prems = []
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
 global.isBaileysFail = false
 
-//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 - 𝗠𝗗'
-global.author = '@yallico.owner'
-global.wm = '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗜𝗔'
-global.titulowm = '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 - 𝗠𝗗  👾'
-global.titulowm2 = '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 - 𝗠𝗗 👾'
-global.igfg = '@yallico.owner'
-global.botname = '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 👾'
-global.dev = '`𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁 👾*'
-global.titu = '*[ By : Tanjiro x Yallico ]*'
-global.textbot = 'Tanjiro Bot X Yallico 👾'
+
+global.packname = '複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ'
+global.author = 'YerTX2🇦🇱Creador'
+global.wm = 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ'
+global.titulowm = 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ  🇦🇱'
+global.titulowm2 = 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ 🇦🇱'
+global.igfg = 'YerTX2'
+global.botname = 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ 🇦🇱'
+global.dev = '`ᴋᴜʀᴜᴍɪᏴo͢Ꭲ 🇦🇱*'
+global.titu = '*[ ᴋᴜʀᴜᴍɪᏴo͢Ꭲ x YerTX2 ]*'
+global.textbot = 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ X YerTX2 🇦🇱'
 global.vs = '1.5.1'
 
 
-//• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
+//• ↳ ◜IMAGENES◞ • 🌇
 global.logo1 = fs.readFileSync('./src/logo1.png')
 global.logo7 = fs.readFileSync('./src/logofile4.jpg')
 global.logo8 = fs.readFileSync('./src/logofile5.jpg')
