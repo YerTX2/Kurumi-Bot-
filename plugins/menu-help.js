@@ -46,12 +46,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let totalreg = Object.keys(global.db.data.users).length;
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
 
-    m.react("👾");
+    m.react("🇦🇱");
     let menu = ``;
 
     let txt = ""
-    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Tanjiro\n`;
-    txt += '`ʙᴏᴛ ::`' + ` TanjiroBot-MD\n`;
+    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` YerTX2\n`;
+    txt += '`ʙᴏᴛ ::`' + ` 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ\n`;
     txt += '`ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
     txt += '`ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
 //    txt += `${sbot}\n`;
@@ -64,7 +64,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let listSections = [];
 
         listSections.push({
-        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Tanjiro`,
+        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ`,
         rows: [
             {
                 header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
