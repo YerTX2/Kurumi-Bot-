@@ -53,24 +53,22 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `Hola \`%name\` soy TanjiroBot-MD, %greeting
+  before: `Hola \`%name\` soy ᴋᴜʀᴜᴍɪᏴo͢Ꭲ, %greeting
 
 乂 _\`ᴜ\` \`ꜱ\` \`ᴜ\` \`ᴀ\` \`ʀ\` \`ɪ\` \`ᴏ\`_ 乂
 
 • _\`ɴᴏᴍʙʀᴇ\`_ :: %name
-• _\`ʙᴏᴛ\`_ :: TanjiroBot-MD
+• _\`ʙᴏᴛ\`_ :: ᴋᴜʀᴜᴍɪᏴo͢Ꭲ
 • _\`ᴍᴏᴅᴏ\`_ :: Público
 • _\`ᴀᴄᴛɪᴠᴏ\`_ :: %muptime
 • _\`ᴜꜱᴜᴀʀɪᴏꜱ\`_ :: %totalreg
-• _\`ᴄᴏʀᴀᴢᴏɴᴇꜱ\`_ :: %corazones
-• _\`ɴɪᴠᴇʟ\`_ :: %level
 
 乂 _\`ᴄ\` \`ᴏ\` \`ᴍ\` \`ᴀ\` \`ɴ\` \`ᴅ\` \`ᴏ\` \`ꜱ\`_ 乂
 `.trimStart(),
   header: '╭─(❀)❝┊ *_`%category`_* ┊❝(❀)',
   body: '┊➧ %cmd\n',
   footer: '╰───────────── –\n',
-  after: `> By TanjiroBot-Md`,
+  after: `> ᴋᴜʀᴜᴍɪᏴo͢Ꭲ`,
 }
 let ppp = 'https://qu.ax/CkXP.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -159,7 +157,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '👾 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `👾 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '🌸 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🌸 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -193,7 +191,7 @@ await conn.sendFile(m.chat, imagen_menu, 'menu.jpg', Styles(text.trim()), fakegi
 ['', '']], null, [['CANAL 🐈‍⬛', `${canal}`], ['CANAL 2', `wa.me/59168683798`]], m) */
 
   } catch (e) {
-    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
+    conn.reply(m.chat, '⚠️ Lo sentimos, el menú tiene un error', m, rcanal, )
     throw e
   }
 }
