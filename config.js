@@ -59,11 +59,11 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: logo7 }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Tanjiro', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', jpegThumbnail: logo8 }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', jpegThumbnail: logo8 }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'Tanjiro', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥', jpegThumbnail: logo8 }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥', jpegThumbnail: logo8 }}};
 
-global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'Tanjiro', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
+global.estilox = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51907376960-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ', orderTitle: 'packname', thumbnail: logo7, sellerJid: '0@s.whatsapp.net'}}}
 
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
@@ -87,8 +87,8 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nTanjiro - Bot`;
-global.nomorown = '51926956637';
+global.wm2 = `${dia} ${fecha}\nᴋᴜʀᴜᴍɪᏴo͢Ꭲ`;
+global.nomorown = '51907376960';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
