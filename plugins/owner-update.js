@@ -20,7 +20,7 @@ const status = execSync('git status --porcelain')
 
 if (status.length > 0) {
 const conflictedFiles = status.toString().split('\n').filter(line => line.trim() !== '').map(line => {
-if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('MickeySession/') || line.includes('npm-debug.log')) {
+if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('KurumiSession/') || line.includes('npm-debug.log')) {
 return null
 }
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
