@@ -7,23 +7,23 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline';
 import yargs from 'yargs';
 import chalk from 'chalk';
-console.log('\n✰ Iniciando Tanjiro ✰');
+console.log('\n Iniciando Kurumi Bot');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Tanjiro-Bot', {
-font: 'block',
-align: 'center',
-colors: ['white']
-});
-say(`Multi Device`, {
+say('Kurumi', {
 font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • Yallico`, {
+say(`BOT`, {
+font: 'chrome',
+align: 'center',
+colors: ['red']
+});
+say(`Creador YerTX2`, {
 font: 'console',
 align: 'center',
 colors: ['yellow']
@@ -77,4 +77,4 @@ console.warn('🤍 Se excedió el límite de Listeners en:');
 console.warn(warning.stack);
 }
 });
-start('sunlight.js');
+start('kurumiBot.js');
