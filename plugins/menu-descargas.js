@@ -8,14 +8,8 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“ʜᴏʟᴀ *%name*, ᴛᴇɴ ᴜɴ ʟɪɴᴅᴏ ᴅɪᴀ"
+  before: `“ʜᴏʟᴀ *%name*, a qui esta todos los comandos de descargas🌸"
 
-\`ᴄʟɪᴇɴᴛᴇ:\` %name
-\`ʙᴏᴛ:\` Tanjiro Bot
-\`ᴍᴏᴅᴏ:\` Público
-\`ꜰᴇᴄʜᴀ:\` ${fecha}
-\`ᴜꜱᴜᴀʀɪᴏꜱ:\` %totalreg
-\`ɴɪᴠᴇʟ:\` %level
 
 ▬▭▬▭▬▭▬✦✧✦▬▭▬▭▬▭▬
 %readmore
@@ -27,9 +21,9 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-'dl': 'ᴍᴇɴᴜ ᴅʟ',
+'dl': 'menudescarga',
 }
-let img = 'https://qu.ax/CkXP.jpg'
+let img = 'https://i.ibb.co/PGJGjQk/file.jpg'
 
   try {
           // DEFAULT MENU
@@ -180,14 +174,14 @@ let img = 'https://qu.ax/CkXP.jpg'
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-await m.react('⛱️') 
+await m.react('📩') 
 
  conn.sendMessage(m.chat, {
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁',
-        body: '𝗧𝗮𝗻𝗷𝗶𝗿𝗼 𝗕𝗼𝘁',
+        title: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ',
+        body: 'ᴋᴜʀᴜᴍɪᏴo͢Ꭲ',
         thumbnailUrl: img,
         sourceUrl: global.canal,
         mediaType: 1,
@@ -200,9 +194,9 @@ await m.react('⛱️')
     throw e
   }
 }
-handler.help = ['menudl']
+handler.help = ['dl']
 handler.tags = ['menu']
-handler.command = ['menudl']
+handler.command = ['dl']
 
 export default handler
 
