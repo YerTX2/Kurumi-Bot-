@@ -46,12 +46,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let totalreg = Object.keys(global.db.data.users).length;
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
 
-    m.react("👾");
+    m.react("🇦🇱");
     let menu = ``;
 
     let txt = ""
-    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` Tanjiro\n`;
-    txt += '`ʙᴏᴛ ::`' + ` TanjiroBot-MD\n`;
+    txt += '`ᴄʀᴇᴀᴅᴏʀ ::`' + ` YerTX2\n`;
+    txt += '`ʙᴏᴛ ::`' + ` 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ\n`;
     txt += '`ꜰᴇᴄʜᴀ ::`' + ` ${fecha}\n`;
     txt += '`ᴠᴇʀꜱɪᴏɴ ::`' + ` ${vs}\n`;
 //    txt += `${sbot}\n`;
@@ -64,64 +64,54 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let listSections = [];
 
         listSections.push({
-        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular Tanjiro`,
+        title: `🔖 SELECCIÓNA LO QUE NECESITES`, highlight_label: `Popular 複|ᴋᴜʀᴜᴍɪᏴo͢Ꭲツ`,
         rows: [
             {
-                header: "𝗔𝗨𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗥 ✅",
+                header: "AUTO VERIFICAR ✅",
                 title: "",
                 description: `Verificacion Automáticamente`,
-                id: `.reg Tanjiro.18`,
+                id: `.reg Kurumi.18`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🤍",
+                header: "MENU COMPLETO 🇦🇱",
                 title: "",
                 description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘰`,
                 id: `.allmenu`,
-            },
+            }, 
+            
+          
             {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 🔊",
+                header: "MENU DESCARGAS 📥",
                 title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘢𝘶𝘥𝘪𝘰𝘴`,
-                id: `${usedPrefix}menuaudios`,
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
+                id: `${usedPrefix}menudl`,
             },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪 🔞",
+             {
+                header: "MENU  GRUPO👥",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 grupos`,
+                id: `${usedPrefix}menugrupo`,
+            }, 
+             {
+                header: "MENU SEARCH",
+                title: "",
+                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 SEARCH`,
+                id: `${usedPrefix}menusearch`,
+            },
+             {
+                header: "MENU NSFW 🔞",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘤𝘢𝘭𝘪𝘦𝘯𝘵𝘦`,
                 id: `${usedPrefix}labiblia`,
             },
             {
-                header: "𝗠𝗘𝗡𝗨 𝗝𝗨𝗘𝗚𝗢𝗦 🎮",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘫𝘶𝘦𝘨𝘰𝘴`,
-                id: `${usedPrefix}menugame`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗡𝗜𝗠𝗘 🌸",
-                title: "",
-                description: `𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘢𝘯𝘪𝘮𝘦`,
-                id: `${usedPrefix}menugame`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
-                id: `${usedPrefix}menudescarga`,
-            },
-            {
-                header: "𝗠𝗘𝗡𝗨 𝗔𝗜 🤖",
-                title: "",
-                description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘐𝘈-𝘉𝘰𝘵`,
-                id: `${usedPrefix}menuai`,
-            },
-            {
-                header: "𝗥𝗘𝗗𝗘𝗦 🍄",
+                header: "REDES 🇦🇱",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘢𝘴 𝘳𝘦𝘥𝘦𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}redes`,
             },
             {
-                header: "𝗚𝗥𝗨𝗣𝗢𝗦 ☁️",
+                header: "GRUPOS 🌟",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘨𝘳𝘶𝘱𝘰𝘴 𝘥𝘦𝘭 𝘣𝘰𝘵`,
                 id: `${usedPrefix}grupos`,
@@ -129,19 +119,19 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://qu.ax/CkXP.jpg";
-    let img = "https://qu.ax/CkXP.jpg";
-    let img2 = "https://qu.ax/CkXP.jpg";
-    let img3 = "https://qu.ax/CkXP.jpg";
-    let img4 = "https://qu.ax/CkXP.jpg";
-    let img5 = "https://qu.ax/CkXP.jpg";
-    let img6 = "https://qu.ax/CkXP.jpg";
-    let img8 = "https://qu.ax/CkXP.jpg";
-    let img9 = "https://qu.ax/CkXP.jpg";
-    let img10 = "https://qu.ax/CkXP.jpg";
-    let img11 = "https://qu.ax/CkXP.jpg";
+    let vid = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img2 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img3 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img4 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img5 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img6 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img8 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img9 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img10 = "https://i.ibb.co/94vgRtb/file.jpg";
+    let img11 = "https://i.ibb.co/94vgRtb/file.jpg";
 
-    await conn.sendListB(m.chat, menu, txt, ` 𓏲୭᳟👾̸̷̸̷᮫᮫໋໋݂݂ׄׄ.𝐌𝐄𝐍𝐔𝐒 𝐋𝐈𝐒𝐓𓏲᭔᷼⁩`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
+    await conn.sendListB(m.chat, menu, txt, ` MENU LISTA KURUMI`, [vid, img, img2, img3, img4, img5, img6, img8, img9, img10, img11].getRandom(), listSections, estilo);
 };
 
 handler.command = ["menu", "help", "menú"];
