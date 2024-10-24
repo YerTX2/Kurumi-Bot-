@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 header: "𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥",
                 title: "",
                 description: `𝘔𝘶𝘦𝘴𝘵𝘳𝘢 𝘦𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦 𝘥𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴`,
-                id: `${usedPrefix}menudl`,
+                id: `${usedPrefix}menudescarga`,
             },
             {
                 header: "𝗠𝗘𝗡𝗨 𝗔𝗜 🤖",
